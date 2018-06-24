@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_splash_screen"
+    tools:context="aplicacioncontroles.chefmaster2.MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout2"
+    android:weightSum="1">
+    <TextView
+        android:background="#b37414"
+        android:text="Chef Master"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_logo" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/ic_acerca"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+
+            android:text="Acerca de la App"
+            android:id="@+id/acerca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Mi Cuenta"
+            android:id="@+id/miCuenta"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+
+            android:text="Ultimas Recetas"
+            android:id="@+id/ultimas"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/ic_recetas"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Crear Recetas"
+            android:id="@+id/crear"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/ic_crear"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Contactos"
+            android:id="@+id/contactos"
+            android:background="@drawable/back_button"
+            android:drawableLeft="@drawable/ic_contact"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+</ScrollView>
